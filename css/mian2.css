@@ -1,0 +1,14 @@
+.main_sed .part a{
+    display: block;
+    overflow: hidden;
+
+}
+.main_sed .part img {
+    transition: all 0.6s;
+    filter: grayscale(100%);;
+}
+.main_sed .part img:hover {
+    transform: scale(1.1);
+    filter: none;
+
+}

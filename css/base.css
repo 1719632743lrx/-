@@ -1,0 +1,55 @@
+﻿
+body {
+	height: 8888px;
+}
+
+body,p,h1,h2,h3,h4,h5,h6,ul,dl,ol,li,dd,dt {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+a{
+	text-decoration: none;
+	color: #333333;
+	font-size: 14px;
+}
+
+
+input,img {
+	vertical-align: middle;
+	border: none;
+	outline-style: none;
+}
+
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+.both {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+
+.w {
+	width: 1190px;
+	margin: 0 auto;
+}
+.fl	{
+	float: left;
+}
+
+.fr {
+	float: right;
+}

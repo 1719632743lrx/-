@@ -1,0 +1,442 @@
+/*world的开始*/
+
+.world img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+/*world的结束*/
+
+
+/*内容1的开始*/
+.main {
+    text-align: center;
+    background: #222;
+}
+/*main内容第一部分开始*/
+.main .main_one {
+    position: relative;
+}
+.main .main_one .one20 {
+    width: 100%;
+    height: 20px;
+}
+.main .main_one .tit {
+    position: relative;
+    cursor: pointer;
+    width: 630px;
+    height: 163px;
+    line-height: 163px;
+    background: url("../img/title2.png") no-repeat center;
+    margin:  0 auto;
+    font-size: 28px;
+    color: #fff;
+}
+.main .main_one .tit:hover p {
+    /*color: #C7A75C;*/
+}
+.main .main_one .one30 {
+    width: 100%;
+    height: 30px;
+}
+
+.main .main_two .public{
+    float: left;
+    width: 565px;
+    height: 130px;
+    background: #C7A75C;
+    color: #fff;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.main .main_two .public .ch:hover p {
+    color: #0B4783;
+}
+
+.main .main_two .public .loc span{
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.main .main_two .public .loc span:hover {
+    color: #0B4783;
+}
+.main .main_two .spe {
+    background: #0B4783;
+}
+.main .main_two .public .ch1:hover p {
+    color: #C7A75C;
+}
+.main .main_two .public .loc1 span:hover {
+    color: #C7A75C;
+}
+.main .CHINA {
+    color: #999;
+    padding-top: 20px;
+}
+
+.main .mian_content .part {
+    overflow: hidden;
+    text-align: left;
+    width: 285px;
+    margin: 40px 6px;
+    /*height: 455px;*/
+    float: left;
+    position: relative;
+
+}
+.main .mian_content .part .zz .zzdh {
+    width: 285px;
+    display: none;
+    position: absolute;
+}
+.main .mian_content .part img {
+    height: 388px;
+    width: 285px;
+}
+
+/*.main .mian_content .part .asp {*/
+/*display: block;*/
+    /*overflow: hidden;*/
+    /*width: 100%;*/
+    /*height: 388px;*/
+/*}*/
+.main .mian_content .part .h_tit {
+    font-size: 24px;
+    color: #ffffff;
+}
+.main .mian_content .part .h_subtit{
+    font-size: 14px;
+    color: #C6A65B;
+}
+.main .mian_content .part .spec {
+    font-size: 12px;
+    color: #ffffff;
+}
+.main .mian_content .part h3 {
+    cursor: pointer;
+}
+.main .mian_content .part h3:hover .spec{
+    color: #C6A65B;
+}
+.main .more {
+    cursor: pointer;
+    width: 250px;
+    height: 38px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin: 50px auto;
+    color: #fff;
+    line-height: 38px;
+    font-size: 14px;
+}
+.main .more:hover {
+    color: #C7A75C;
+    border-top: 1px solid #C7A75C;
+    border-bottom: 1px solid #C7A75C;
+}
+.main .more50 {
+    height: 50px;
+}
+.main_sed {
+    background: #fff;
+}
+.main_sed .tit p{
+    color: #000;
+}
+.main_sed .more {
+    cursor: pointer;
+    width: 250px;
+    height: 38px;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+    margin: 50px auto;
+    color: #000;
+    line-height: 38px;
+    font-size: 14px;
+}
+/*main内容第一部分结束*/
+
+/*内容1的结束*/
+
+
+/*lrx部分*/
+/*world的开始*/
+
+.world img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+/*world的结束*/
+
+.banner_box {
+    width: 100%;
+    overflow: hidden;
+}
+/*内容1的开始*/
+.main {
+    text-align: center;
+    /*background: #222;*/
+}
+
+/*内容1的结束*/
+
+
+/*品牌简介开始*/
+.tow_title {
+    position: relative;
+    height: 163px;
+    width: 630px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tow_title a:hover {
+    color: #C6A65B;
+}
+
+.ertcon2 {
+    background: url(../img/title2.png) no-repeat center bottom;
+    height: 153px;
+    width: 630px;
+}
+
+.blk70 {
+    height: 70px;
+}
+
+.fs28 {
+    font-size: 26px;
+    font-style: normal;
+    margin-top: 2px;
+}
+.fs25 {
+    font-size: 25px;
+}
+
+/*品牌简介标题结束*/
+
+
+
+/*品牌简介主体部分*/
+.main_two .brand{
+    margin-top: 50px;
+}
+
+.main_two .brand ul {
+    width: 1166px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.main_two .brand ul li:first-child {
+    margin-left: 0;
+}
+.main_two .brand ul li {
+    width: 380px;
+    height: 260px;
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.sxp {
+    top: 0;
+}
+.sxp1 {
+    bottom: 0;
+}
+
+.sixpp {
+    position: relative;
+}
+.sxp, .sxp1 {
+    width: 380px;
+    height: 130px;
+    background: #414141;
+    opacity: 0.6;
+    position: absolute;
+}
+
+.sxx1 {
+    width: 200px;
+    height: 23px;
+    z-index: 999;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+    line-height: 23px;
+    position: absolute;
+    top: 205px;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.sxx2 {
+    width: 183px;
+    height: 13px;
+    z-index: 999;
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    opacity: 1;
+    line-height: 13px;
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    margin-left: -91.5px;
+}
+
+/*铂爵每周客照主体部分开始*/
+
+.blk30 {
+    height: 30px;
+}
+.pack {
+    background-color: #222;
+}
+
+
+
+
+/*对话部分*/
+.mini-btn-info {
+    white-space: nowrap;
+    cursor: pointer;
+    /*display: none;*/
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 100;
+    height: 42px;
+    border-radius: 2px;
+    overflow: hidden;
+    background: rgb(31, 140, 235);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 6px, rgba(0, 0, 0, 0.16) 0px 2px 32px;
+}
+
+
+
+.content_left {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 10089;
+    background-image: url(../img/bg.jpg);
+    display: none;
+}
+
+
+/*产品信息部分*/
+.brand_info {
+    width: 100%;
+    height: 360px;
+    background-image: url(../images/index_r13_c1.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    /*margin-bottom: 50px;*/
+}
+
+.brand_box {
+    width: 78.125%;
+    margin: 0 auto;
+    min-width: 1200px;
+    overflow: hidden;
+}
+.brand_box ul li {
+    float: left;
+    width: 20%;
+    padding-top: 90px;
+    position: relative;
+}
+.fs24 {
+    font-size: 24px;
+    color: white;
+}
+.fs14 {
+    font-size: 14px;
+    color: white;
+}
+
+.brand_box img {
+    position: absolute;
+    top: -100px;
+    left: 80px;
+    display:none ;
+    cursor: pointer;
+}
+.br_png {
+    width: 81px;
+    height: 124px;
+}
+.brand_box img :hover {
+    box-shadow: 0 8px 8px rgba(10,16,20,.24),0 0 8px rgba(10,16,20,.12);
+}
+.pics_wrap {
+    width: 100%;
+    height: 560px;
+    overflow: hidden;
+}
+
+/*放大镜*/
+.main_sed .part .part_btn{
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    border: 1.5px solid #222;
+}
+.main_sed .part .leftTop {
+    left: 50px;
+    top: 50px;
+    border-right: none;
+    border-bottom: none;
+    opacity: 0;
+}
+.main_sed .part .rightTop {
+    right: 50px;
+    top: 50px;
+    border-left: none;
+    border-bottom: none;
+    opacity: 0;
+}
+.main_sed .part .leftBot {
+    left: 50px;
+    bottom: 120px;
+    border-right: none;
+    border-top: none;
+    opacity: 0;
+}
+.main_sed .part .rightBot {
+    right: 50px;
+    bottom: 120px;
+    border-left: none;
+    border-top: none;
+    opacity: 0;
+}
+#backs {
+    /*border: 1px solid #ED5759;*/
+    /*background: #FDEEEE;*/
+    font-size: 12px;
+    color: red;
+    height: 30px;
+    line-height: 30px;
+    width: 32px;
+    cursor: pointer;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+    bottom: 50px;
+    display: none;
+
+}
+#backs:hover {
+    background-color: plum;
+}

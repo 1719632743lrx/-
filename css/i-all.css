@@ -1,0 +1,76 @@
+/*i-all的开始*/
+body,html {
+    width: 100%;
+    height: 100%;
+}
+.i-all {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.index_zw {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: #777;
+    opacity: 0.5;
+    z-index: 1000;
+    transform: translate(-50%,-50%);
+}
+.i_contents {
+    position: absolute;
+    z-index: 1100;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.i_content {
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+.img_first {
+    display: block;
+    margin: 0 auto 50px;
+
+}
+.img_sed {
+    display: block;
+    margin: 0 auto;
+}
+.i_mouse {
+    width: 64px;
+    height: 64px;
+    background: url("../images/mouse.png");
+    background-size: 64px 64px;
+    margin: 11% auto 0;
+    display: block;
+}
+.i_jh {
+    width: 32px;
+    height: 32px;
+    display: block;
+    background: url("../images/logo_jh.png");
+    background-size: 32px 32px;
+    margin: 0.5% auto 0;
+
+}
+
+.i_scroll {
+    margin: 2% auto;
+    text-align: center;
+}
+.i_scroll a {
+    color: #fff;
+    font-size: 20px;
+    font-family: '宋体';
+    font-weight: 400;
+}
+/*i-all的结束*/

@@ -1,0 +1,66 @@
+.banner {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    z-index: 9999;
+}
+.banner ul {
+    width: 10080px;
+    position: absolute;
+}
+.banner li {
+    float: left;
+}
+.banner li img {
+    height: 600px;
+    width: 1366px;
+}
+
+/* 设置左右按钮样式 */
+.banner .btn {
+    opacity: 0.5;
+    position: absolute;
+    width: 30px;
+    text-align: center;
+    line-height: 50px;
+    height: 60px;
+    background: rgba(0,0,0,.3);
+    color:#fff;
+    font: 50px/50px '宋体';
+    top:50%;
+    margin-top: -25px;
+    text-align: center;
+    /*display: none;*/
+}
+.banner .btnLeft {
+    text-align: center;
+    line-height: 50px;
+    left: 0;
+}
+.banner .btnRight {
+    right: 0;
+}
+/* 一组小点按钮的样式 */
+.banner .control {
+    position: absolute;
+    bottom: 20px;
+    left:50%;
+    margin-left: -82px;
+}
+.banner .control a {
+    float: left;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 50%;
+
+}
+.banner .control a+a {
+    margin-left:10px;
+}
+.banner .control a.active {
+    background: red;
+}
